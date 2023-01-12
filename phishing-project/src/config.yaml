@@ -1,0 +1,15 @@
+url: https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/
+files: ["phishing-IPs-ACTIVE.txt",
+"phishing-IPs-INACTIVE.txt",
+"phishing-IPs-INVALID.txt",
+"phishing-domains-ACTIVE.txt",
+"phishing-domains-INACTIVE.txt",
+"phishing-domains-INVALID.txt",
+"phishing-domains-NEW-today.txt",
+"phishing-links-ACTIVE-NOW.txt",
+"phishing-links-ACTIVE-TODAY.txt",
+"phishing-links-ACTIVE-today.txt",
+"phishing-links-ACTIVE.txt",
+"phishing-links-INACTIVE.txt",
+"phishing-links-INVALID.txt",
+"phishing-links-NEW-today.txt"]

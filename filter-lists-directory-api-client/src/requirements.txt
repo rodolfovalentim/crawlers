@@ -1,0 +1,4 @@
+attr==0.3.2
+attrs==22.1.0
+httpx==0.23.0
+requests==2.28.1
