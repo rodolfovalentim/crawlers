@@ -6,8 +6,8 @@ How to build:
 
 On the path where the dockerfile exists run:
 
-docker build --tag phishing-project .
+`docker build --tag phishing-project .`
 
 How to execute:
 
-docker run -v <local directory>:/usr/src/data phishing-project
+`docker run -v <local directory>:/usr/src/data phishing-project`
