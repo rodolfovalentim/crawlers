@@ -62,7 +62,7 @@ for list in lists:
                 f.write(list_content.content)
 
             with open(path_storage + eventid + '/' + tag_name + '/' + list_meta.name + '/meta.json', 'w', encoding='utf-8') as fp:
-                print(list_modified_meta)
+                # print(list_modified_meta)
                 json.dump(list_modified_meta, fp, ensure_ascii=False, indent=4)
 
     except Exception as ecpt:
