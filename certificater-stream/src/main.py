@@ -1,6 +1,7 @@
 import logging
 from logging.handlers import TimedRotatingFileHandler
 import certstream
+import json
 
 # get named logger
 logger = logging.getLogger(__name__)
@@ -18,6 +19,6 @@ def print_callback(message, context):
         return
 
     if message['message_type'] == "certificate_update":
-        logger.info(message)
+        logger.info(json.dumps(message))
 
 certstream.listen_for_events(print_callback, url='wss://certstream.calidog.io/')
