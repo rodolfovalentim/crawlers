@@ -1,0 +1,16 @@
+FROM python:3.9-slim-buster
+
+WORKDIR src/
+
+ADD requirements.txt requirements.txt
+ADD main.py main.py
+COPY templates templates
+
+RUN pip install --upgrade pip
+RUN pip install --no-cache-dir -r requirements.txt
+
+# COPY . src
+
+# CMD ["ls", "-la", "/src"]
+# CMD ["pwd"]
+CMD ["python", "main.py"]
