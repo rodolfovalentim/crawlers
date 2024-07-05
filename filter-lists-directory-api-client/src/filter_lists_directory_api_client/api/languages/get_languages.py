@@ -22,6 +22,7 @@ def _get_kwargs(
         "method": "get",
         "url": url,
         "headers": headers,
+        'follow_redirects' : True,
         "cookies": cookies,
         "timeout": client.get_timeout(),
     }

@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  other-blocklists:
+    build: ./other-filter-lists
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
+      - /share/smartdata/security/phishing/other-blocklists:/usr/src/data
+    restart: unless-stopped
+
+  filter-list-scrapper:
+    build: ./filter-lists-directory-api-client
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
+      - /share/smartdata/security/phishing/filter_lists/:/usr/src/data
+    restart: unless-stopped

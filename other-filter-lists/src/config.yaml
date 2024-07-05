@@ -1,0 +1,128 @@
+- 
+  name: "Feodo Tracker Recommended IP blocklist"
+  url: "https://feodotracker.abuse.ch/downloads/ipblocklist_recommended.json"
+  interval: "24h"
+- 
+  name: "Feodo Tracker Botnet C2 Indicators Of Compromise (IOCs)"
+  url: "https://feodotracker.abuse.ch/downloads/ipblocklist.json"
+  interval: "24h"
+- 
+  name: "Feodo Tracker Botnet C2 Indicators Of Compromise (IOCs) Agressive"
+  url: "https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.csv"
+  interval: "24h"
+- 
+  name: "Blocklist.de"
+  url: "https://lists.blocklist.de/lists/all.txt"
+  interval: "24h"
+- 
+  name: "Spamhaus DROP v4"
+  url: "https://www.spamhaus.org/drop/drop_v4.json"
+  interval: "24h"
+- 
+  name: "Spamhaus DROP v6"
+  url: "https://www.spamhaus.org/drop/drop_v6.json"
+  interval: "24h"
+- 
+  name: "Spamhaus ASN-DROP"
+  url: "https://www.spamhaus.org/drop/asndrop.json"
+  interval: "24h"
+- 
+  name: "AlienVault Reputation List"
+  url: "https://reputation.alienvault.com/reputation.data"
+  interval: "24h"
+- 
+  name: "CINS Army badguys"
+  url: "http://cinsscore.com/list/ci-badguys.txt"
+  interval: "24h"
+- 
+  name: "Dataplane DNS recursion desired"
+  url: "https://dataplane.org/signals/dnsrd.txt"
+  interval: "24h"
+- 
+  name: "Dataplane DNS recursion desired IN ANY"
+  url: "https://dataplane.org/signals/dnsrdany.txt"
+  interval: "24h"
+- 
+  name: "Dataplane DNS TCP"
+  url: "https://dataplane.org/signals/dnstcp.txt"
+  interval: "24h"
+- 
+  name: "Dataplane DNS Type Name"
+  url: "https://dataplane.org/signals/dnstypename.txt"
+  interval: "24h"
+- 
+  name: "Dataplane DNS CH TXT version.bind"
+  url: "https://dataplane.org/signals/dnsversion.txt"
+  interval: "24h"
+- 
+  name: "Dataplane IP protocol 41"
+  url: "https://dataplane.org/signals/proto41.txt"
+  interval: "24h"
+- 
+  name: "Dataplane SIP invitation"
+  url: "https://dataplane.org/signals/sipinvitation.txt"
+  interval: "24h"
+- 
+  name: "SIP query"
+  url: "https://dataplane.org/signals/sipquery.txt"
+  interval: "24h"
+- 
+  name: "SIP registration"
+  url: "https://dataplane.org/signals/sipregistration.txt"
+  interval: "24h"
+- 
+  name: "Dataplane SMTP data"
+  url: "https://dataplane.org/signals/smtpdata.txt"
+  interval: "24h"
+- 
+  name: "Dataplane SMTP greeting"
+  url: "https://dataplane.org/signals/smtpgreet.txt"
+  interval: "24h"
+- 
+  name: "Dataplane SSH client connection"
+  url: "https://dataplane.org/signals/sshclient.txt"
+  interval: "24h"
+- 
+  name: "Dataplane SSH password authentication"
+  url: "https://dataplane.org/signals/sshpwauth.txt"
+  interval: "24h"
+- 
+  name: "Dataplane TELNET login"
+  url: "https://dataplane.org/signals/telnetlogin.txt"
+  interval: "24h"
+- 
+  name: "Dataplane VNC RFB"
+  url: "https://dataplane.org/signals/vncrfb.txt"
+  interval: "24h"
+- 
+  name: "Full Bogons IPv4"
+  url: "https://team-cymru.org/Services/Bogons/fullbogons-ipv4.txt"
+  interval: "24h"
+- 
+  name: "Full Bogons IPv6"
+  url: "https://team-cymru.org/Services/Bogons/fullbogons-ipv6.txt"
+  interval: "24h"
+- 
+  name: "Malware World suspiciousIPs"
+  url: "https://www.malwareworld.com/textlists/suspiciousIPs.txt"
+  interval: "24h"
+- 
+  name: "Binary Defense banlist"
+  url: "https://www.binarydefense.com/banlist.txt"
+  interval: "24h"
+- 
+  name: "Nix Spam DNSBL"
+  url: "https://www.nixspam.net/download/nixspam-ip.dump.gz"
+  interval: "24h"
+- 
+  name: "GreenSnow blacklisted IPs list"
+  url: "https://blocklist.greensnow.co/greensnow.txt"
+  interval: "24h"
+- 
+  name: "CRUZIT Server Blocklist / Blacklist"
+  url: "https://www.cruzit.com/xxwbl2txt1.php"
+  interval: "24h"
+- 
+  name: "Turris greylist-latest"
+  url: "https://view.sentinel.turris.cz/greylist-data/greylist-latest.csv"
+  interval: "24h"

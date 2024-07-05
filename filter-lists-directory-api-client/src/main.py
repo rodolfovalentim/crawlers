@@ -30,10 +30,11 @@ path_storage = '/usr/src/data/'
 client = Client(base_url="https://filterlists.com/api/directory", verify_ssl=False)
 
 # getting the exact time to save the logs
-eventid = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
+eventid = datetime.now().strftime("%Y/%m/%d")
 
 # Loading a mapping from id to systax. 
 syntaxes = get_syntaxes.sync(client=client)
+print(syntaxes)
 syntax_dict = { syntax.id: syntax.name for syntax in syntaxes }
 
 # Loading a mapping from id to language. 

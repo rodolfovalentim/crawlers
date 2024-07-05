@@ -1,1 +1,1 @@
-2 0 * * * python src/main.py
+00 16 * * * python src/main.py

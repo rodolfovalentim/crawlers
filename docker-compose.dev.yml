@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  other-blocklists:
+    volumes:
+      - /share/smartdata/security/phishing/dev-other-blocklists:/usr/src/data
+
+  filter-list-scrapper:
+    volumes:
+      - /share/smartdata/security/phishing/dev-filter_lists/:/usr/src/data
